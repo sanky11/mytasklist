@@ -1,0 +1,39 @@
+body{
+    background: #124957;
+    font-family: tahoma;
+    color: #989898;
+}
+
+#mytasklist{
+    position: relative;
+    width: 95%;
+    background: #090d13;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#mytasklist form:after{
+    margin: 0;
+    content: '';
+    display: block;
+    clear: both;
+}
+
+input[type="text"]{
+    width: 70%;
+    padding: 20px;
+    background:#d4e1f7;
+    border: 0;
+    float: center;
+    font-size: 25px;
+    color: #1a1313;
+}
+
+
+h1{
+    background: url(/assets/logo.png) no-repeat center;
+    margin-bottom: 0;
+    text-indent: -10000px;
+}
+
